@@ -3,9 +3,9 @@
                                      /*SAS PROJECT ON TELCO CHURN DATA*/
                                     /*Observations         71047     */
                                    /*Variables            58        */
-/*SUBMITTED BY:    MANINDER SINGH*/                                 /*SUBMITTED TO:     Ar Kar Min       */
+     
                                                                       
-                                /*SUBMISSION DATE:   DEC-11-2020 */
+            
                                 
                             LIBNAME MS'C:\Users\simpl\Desktop\SAS PROJECT';
 
@@ -302,17 +302,6 @@ TITLE "PIE CHART FOR MaritalStatus DISTRIBUTION";
 RUN;
 QUIT;
 
-
-
-
-
-
-
-
-
-
-
-
 PROC GCHART DATA =  MS.SASPROJECT;
 TITLE " DISTRIBUTION OF MonthlyRevenue";
  3D MonthlyRevenue;
@@ -331,7 +320,7 @@ ODS PDF CLOSE;
 
 
 
-
+##############################################################################################################################################
 
 
 
